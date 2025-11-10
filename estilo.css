@@ -1,0 +1,154 @@
+.cabecera {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.sec1 {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black
+}
+.sec1 p{
+    text-align: right;
+    font-size: 16px;
+    line-height: 1.5;
+
+
+}
+
+.art1 {
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 4px solid #007BFF;
+}
+.art1 p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+
+
+}
+
+.img1 {
+    
+    text-align: center;
+}
+.img1 img{
+    width: 200px;
+    height: 250px;
+}
+.img1 p{
+    text-align: center;
+}
+.contenedorimg {
+    text-align: center;
+}
+.contenedorimg img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+}
+.contenedor1 {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+  height: 200px;
+  color:rgb(85, 42, 165);
+}
+.contenedor2 {
+  border: 2px solid black ;
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+  text-align: right;
+  color: crimson;
+}
+.listas{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 10px;
+    
+     
+    
+}
+.listas ul{
+    background-color: aqua;
+    border: solid black;
+    width: 46%;
+    margin-right: 20px;
+    height: 150px;
+    padding: 20px;
+    list-style: none;
+    
+
+}
+.listas ol{
+    background-color: blue;
+    border: solid black;
+    width: 46%;
+    list-style: none;
+    padding: 20px;
+    
+}
+.tabla {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 98%;
+    
+      
+}
+.tabla th{
+    border: solid black;
+    
+}
+.tabla tr{
+    border: solid black;
+}
+.tabla td{
+    border: solid black;
+}
+.artlista{
+    background-color:blueviolet;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    
+}
+.artlista p{
+    font-size: large;
+    color: black;
+}
+.footer{
+   
+    color: black;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    
+    
+}
+.footer ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+}
+.footer li{
+    margin-right: 2%;
+
+}
+ 
+.footer h2{
+    text-align: center;
+    margin-top: 100PX;
+}
