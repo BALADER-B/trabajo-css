@@ -83,9 +83,8 @@
 .listas ul{
     background-color: aqua;
     border: solid black;
-    width: 46%;
     margin-right: 20px;
-    height: 150px;
+    flex: 1;
     padding: 20px;
     list-style: none;
     
@@ -94,7 +93,7 @@
 .listas ol{
     background-color: blue;
     border: solid black;
-    width: 46%;
+    flex: 1;
     list-style: none;
     padding: 20px;
     
