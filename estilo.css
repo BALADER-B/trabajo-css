@@ -24,24 +24,30 @@
     border-left: 4px solid #007BFF;
 }
 .art1 p{
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     line-height: 1.5;
 
 
 }
 
-.img1 {
+.img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
-    text-align: center;
 }
+.img1 p{
+    align-self: flex-start;
+    margin: 20px;
+}
+
 .img1 img{
     width: 200px;
     height: 250px;
 }
-.img1 p{
-    text-align: center;
-}
+
+
 .contenedorimg {
     text-align: center;
 }
@@ -83,18 +89,17 @@
 .listas ul{
     background-color: aqua;
     border: solid black;
-    width: 46%;
     margin-right: 20px;
-    height: 150px;
+    flex: 1;
     padding: 20px;
     list-style: none;
     
 
 }
 .listas ol{
-    background-color: blue;
+    background-color: yellowgreen;
     border: solid black;
-    width: 46%;
+    flex: 1;
     list-style: none;
     padding: 20px;
     
@@ -104,8 +109,7 @@
     text-align: center;
     padding: 10px;
     margin: 10px;
-    width: 98%;
-    
+    width: 99%;
       
 }
 .tabla th{
@@ -126,6 +130,17 @@
     
 }
 .artlista p{
+    font-size: large;
+    color: black;
+}
+.divlista{
+    background-color:rgb(43, 159, 226);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    
+}
+.divlista p{
     font-size: large;
     color: black;
 }
