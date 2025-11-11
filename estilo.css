@@ -127,6 +127,17 @@
     font-size: large;
     color: black;
 }
+.divlista{
+    background-color:rgb(43, 159, 226);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    
+}
+.divlista p{
+    font-size: large;
+    color: black;
+}
 .footer{
    
     color: black;
