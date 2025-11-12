@@ -81,24 +81,33 @@
     flex-direction: row;
     text-align: center;
     margin: 10px;
+    background-color: white;
     
-     
     
 }
-.listas ul{
-    background-color: aqua;
+.prueba{
+    flex: 1;
+    background-color: green;
     border: solid black;
     margin-right: 20px;
+
+}
+.prueba2{
+    background-color: yellowgreen;
+    border: solid black;
     flex: 1;
+}
+.prueba h2{
+    text-align: center;
+    flex: 1;
+}
+.listas ul{
     padding: 20px;
     list-style: none;
     
 
 }
 .listas ol{
-    background-color: yellowgreen;
-    border: solid black;
-    flex: 1;
     list-style: none;
     padding: 20px;
     
